@@ -53,7 +53,7 @@ public class GetTweets {
 		        result = twitter.search(query);
 		        List<Status> tweets = result.getTweets();
 		        int i=0;
-		        for (Status tweet : tweets) {
+		        for (Status tweet : tweets) {    // try to gte latest tweets and tweet objects has everything you need :)
 		        	// tweet.getCreatedAt()
 		        	i++;
 		        	if(i<10)
